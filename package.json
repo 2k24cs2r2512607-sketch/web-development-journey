@@ -1,0 +1,14 @@
+{
+  "name": "codexai",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev":"node createmyfirstserver.js",
+    "dev2":"node creating_routs.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module"
+}
