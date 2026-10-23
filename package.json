@@ -4,11 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev":"node createmyfirstserver.js",
-    "dev2":"node creating_routs.js"
+    "dev": "nodemon req.parameter.js",
+    "dev2": "node creating_routs.js",
+    "dev3":"nodemon createserver_express.js "
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "express": "^5.3.0",
+    "nodemon": "^3.1.14"
+  }
 }
