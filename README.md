@@ -60,39 +60,7 @@ My goal is to strengthen my understanding of JavaScript fundamentals, frontend d
 - Mongoose
 - Git & GitHub
 
-## 📂 Repository Structure
-
-```text
-javascript-mern-learning/
-│
-├── JavaScript/
-│   ├── Basics/
-│   ├── Functions/
-│   ├── Arrays-and-Objects/
-│   ├── DOM-Manipulation/
-│   ├── ES6-Features/
-│   ├── Async-JavaScript/
-│   └── Mini-Projects/
-│
-├── Frontend/
-│   ├── HTML/
-│   ├── CSS/
-│   └── JavaScript-Projects/
-│
-├── Backend/
-│   ├── NodeJS/
-│   ├── ExpressJS/
-│   ├── REST-APIs/
-│   └── Authentication/
-│
-├── MongoDB/
-│   ├── CRUD-Operations/
-│   └── Mongoose/
-│
-├── MERN-Projects/
-│
-└── README.md
-```
+ 
 
 ## 🎯 Learning Approach
 
