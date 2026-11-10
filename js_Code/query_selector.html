@@ -1,0 +1,31 @@
+ 
+     <!-- method in javascript is a function save inside the object -->
+    <!DOCtype html>
+    <html>
+        <head>
+            <title>JS</title>
+            <body>
+            <button>Hello</button>
+            <button class="js-button">Second button</button>
+            <!-- class attribute adds a label -->
+             <!-- DOM is object -->
+<script>
+
+    // the document object represents/models the webpage
+     
+
+
+    // document.querySelector()->let us get any element from the page and put inside the javascript
+    console.log(document.querySelector('button'));//here button element is just a object because html element inside javascript is object
+    
+    //Every HTML element has a property .innerHTML
+    console.log(document.querySelector('button').innerHTML);
+    document.querySelector('button').innerHTML='changed';
+    const buttonElement=document.querySelector('.js-button')
+    console.log(buttonElement)
+    
+</script>
+
+        </body>
+    </html>
+     

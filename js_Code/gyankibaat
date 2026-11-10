@@ -1,0 +1,14 @@
+1.
+if a string only contains a number and we do operations like - multiple...
+it will be converted into a number
+console.log('24'-10)==14
+
+
+2.
+window object represents browser
+document object represent the page(document)
+document object is inside the `window` object
+console is also a part of browser
+`window.document`==document
+pop up also part of browser
+window.alert()==alert()

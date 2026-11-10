@@ -1,0 +1,44 @@
+ 
+     
+    <!DOCtype html>
+    <html>
+        <head>
+            <title>JS</title>
+             
+<script>
+    const object1={
+        message : 'hello'
+    };
+    const object2=object1;//because object are references,object1 is a variable that holds that referecne we can change it by reassigning even though it is build with const because it contains references we can change its data but not refernce due to const-
+    object1.message='Iram';
+    document.write(object1['message']);
+    // object2.message='Iradsfm';
+    // document.write(object1['message']);
+    // we cannot compare objects directly
+    const object3={
+        message:'Iram'
+    };
+    console.log(object1===object3);//->False(output) because object are reference and they have different referneces
+    console.log(object1===object2);//->True
+
+    document.write('if we want to compare');
+    const object4={
+        message:'Iram',
+        price:300
+    };
+    // const message=object4.message;//== same can be written->
+    const{message,price}=object4;//called deconstructing (when variable name and object property name is same)
+    console.log(message);
+    const object5={
+        // message:message
+        // shorthand property
+        message
+    };
+    console.log(object5);
+
+
+</script>
+
+        </body>
+    </html>
+     

@@ -1,0 +1,47 @@
+    <!DOCtype html>
+    <html>
+        <head>
+            <title>Arrays and loops</title>
+             
+        </head>
+        <body> 
+            <p>Todo List Practice 1</p>
+            <input type="text" class="input-field" placeholder="Todo name">
+            <button class="add" onclick="add();">Add</button>
+            <div class="show"></div>
+            
+             <!-- array are references -->
+         
+<script>
+    const myarray=[];
+    render();
+    function add(){
+        data=document.querySelector(".input-field").value;
+            myarray.push(data);
+            document.querySelector(".input-field").value="";
+            render();
+            
+
+        }
+    function render(){
+        let todolisthtml='';
+        for (let i=0;i<myarray.length;i++){
+                const todo=myarray[i];
+                const html=`<p>${todo}</p>`;
+                todolisthtml += html;
+            }
+        document.querySelector('.show').innerHTML=todolisthtml;
+        
+    }
+         
+        console.log(myarray);
+
+    
+
+      
+    
+
+</script>
+
+        </body>
+    </html>

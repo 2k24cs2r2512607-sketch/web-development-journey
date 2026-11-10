@@ -1,0 +1,91 @@
+    <!DOCtype html>
+    <html>
+        <head>
+            <title>Advanced function</title>
+             
+        </head>
+        <body> 
+             
+         
+<script>
+    /*f1();
+    function f1(){
+        console.log("this syntax allow to use hoisting feature,hoisting allow to call function first before creating  creating function that means it does not care order")
+    }
+    // function are values
+    // value- a variable can hold a value
+    // same as
+    // we can save a function inside a variable
+    const function1=function greeting(){
+        console.log("Hoisting does not work in this case when we save function in a varible");
+    }//we save function in a varibale because functions are value
+    console.log(function1)
+    console.log(typeof function1)//->function
+    function1();//calling a function using variable
+
+
+
+    const object1={
+        num:2,
+        fun: function (){ //anonymous function
+            console.log("Hello");//because function are values
+        }
+    }
+    object1.fun();
+    // method - when function is saved inside an object
+
+    function display(){
+        console.log('pardfam');
+
+    }
+    display(2);
+
+
+    function run(param){
+        param();
+        
+    }//function inside function - callback function
+    run(display)
+    */
+
+   ['make dinner',
+    'wash dishes',
+    'watch youtube'
+   ].forEach(function(value,index)   {
+    if (value=='wash dishes'){
+        return;//work same as continue
+    }
+    console.log(value,index)
+
+   });//method allows us to loop thorugh array
+    const arrowFunction = (para1) => {
+        console.log('hello');
+    };//arrowfunction
+    // const oneparam = (param) =>{
+    //     console.log(param+1);
+    // };
+    const oneparam = param =>{
+        console.log(param+1);
+    };
+    oneparam(34);
+    const one=()=>3+2;
+    const t=one();
+    console.log(t);
+    ['make dinner',
+    'wash dishes',
+    'watch youtube'
+   ].forEach((value,index) =>  {
+    if (value=='wash dishes'){
+        return;//work same as continue
+    }
+    console.log(value,index)
+
+   });
+    
+
+     
+
+</script>
+
+        </body>
+    </html>

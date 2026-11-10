@@ -1,0 +1,85 @@
+    <!DOCtype html>
+    <html>
+        <head>
+            <title>Objects</title>
+        </head>
+        <body> 
+            <button onclick="" class="js-button">Click </button>
+           
+<!-- json does not support function and not allow single quotes -->
+<script>
+    const buttonelement=document.querySelector('.js-button');
+    const eventlistener=()=>{
+         console.log('clicked');
+    };
+    buttonelement.addEventListener('click',eventlistener);
+
+    buttonelement.removeEventListener('click',eventlistener);
+
+  
+    buttonelement.addEventListener('click',eventlistener);
+
+
+
+
+
+
+/*
+    // Object- An object groups multiple values together
+    const product = {
+        name : 'socks',//name==property(how we access value)
+        price : 2020//property value pair
+        // price : 34
+    };
+    // document.write(typeof product);->Object
+    console.log(product);
+    document.write(product.name);
+    document.write("\n",product.price);
+    product.name = 'cotton socks';//change value
+    document.write(product.name);
+    // document.write(product.name1);->output - undefined
+    product.newproperty=true;
+    document.write(product.newproperty);//creates new property value pair
+    delete product.newproperty;//->delete it 
+    const product2={
+        name:'shirt',
+        'delivery-time':'1 day',
+        rating:{//objects also types of values
+            stars:4.5,
+            count:85//nested object
+        },
+        fun: function function1(){
+            document.write("Function inside object");//function also types of values
+        }
+    };
+    // Objects are references
+    document.write(product2['name']);
+    document.write(product2['name2']);
+    //Bracket notation - advantage if property not present it does not give error and get value undefined in output. on the other hand .(dot) notation gives us an error
+    // document.write(product2.rating.stars);
+    // document.write(product2[rating['stars']]);
+    product2.fun();
+    //console is a object
+    //console.'log' is function
+
+
+    console.log(JSON.stringify(product2));//typeof string
+    const jsonstring=JSON.parse(JSON.stringify(product2));
+    console.log(jsonstring);
+    const product1=product2;//copy by references they points 
+
+
+
+    // arrowfunction
+    const object6={
+        method:()=>{
+            
+        },
+        method(){
+
+        }
+    };*/
+</script>
+
+        </body>
+    </html>
